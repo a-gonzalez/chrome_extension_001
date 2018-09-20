@@ -1,0 +1,15 @@
+button
+{
+	/* color: #000000; */
+	cursor: pointer;
+	font-weight: bold;
+	height: 30px;
+	width: 80px;
+	margin: 10px;
+	outline: none;
+}
+
+.center
+{
+	margin-left: auto; margin-right: auto;
+}
