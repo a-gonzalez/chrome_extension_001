@@ -1,9 +1,9 @@
 let button = document.getElementById("btnOne");
 
-console.log("button: %o", button);
-
 if (button)
 {
+	console.log("button: %o", button);
+	
 	chrome.storage.sync.get("color", (data) => 
 	{
 		console.log("data: %o", data);
