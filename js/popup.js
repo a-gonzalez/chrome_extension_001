@@ -21,6 +21,8 @@ if (button)
 
 		chrome.tabs.query(tab, (tabs) =>
 		{
+			console.log("Tabs: %o", tabs);
+
 			let code = {
 				code: "document.body.style.backgroundColor = '" + button.style.backgroundColor + "';"
 			};

@@ -24,7 +24,7 @@ if (page)
 		if (button)
 		{
 			button.style.backgroundColor = element.color;
-			button.innerHtml = element.color.substr(1);
+			button.innerHTML = element.color.substr(1);
 			button.addEventListener("click", () =>
 			{
 				chrome.storage.sync.set(element, () => {
